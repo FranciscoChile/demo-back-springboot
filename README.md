@@ -6,3 +6,4 @@ Como desplegar
 2. ./mvnw install    
 3. Asumiendo que las base datos esta en localhost con usuario root
 java -DMYSQL_PASS="password" -jar target/demo-0.0.1-SNAPSHOT.jar
+4. Swagger disponible en http://localhost:8080/swagger-ui/index.html
