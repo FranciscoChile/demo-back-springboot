@@ -15,6 +15,7 @@ public class WebConfig implements WebMvcConfigurer {
         .addMapping("/**")
         .allowedOrigins("http://localhost:4200")
         .allowedOrigins("http://localhost")
+        .allowedOrigins("https://transcendent-starburst-8b45b4.netlify.app/")
         .allowedOrigins("*")
         .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS");
         
